@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".screens.ContactsFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_contacts"
+        style="@style/MainToolbar"
+        app:contentInsetStart="0dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/contacts_toolbar_Title"
+                style="@style/MainToolbarTitle"
+                android:text="@string/text_toolbar_title_contacts"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/contact_item1"
+                layout="@layout/contact_item" />
+
+            <include
+                android:id="@+id/contact_item2"
+                layout="@layout/contact_item" />
+
+            <include
+                android:id="@+id/contact_item3"
+                layout="@layout/contact_item" />
+
+            <include
+                android:id="@+id/contact_item4"
+                layout="@layout/contact_item" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

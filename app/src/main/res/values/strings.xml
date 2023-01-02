@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Aston Intensive 5</string>
+
+    <string name="text_toolbar_title_contacts">Contacts</string>
+
+    <string name="text_hint_contact_name">Name</string>
+    <string name="text_hint_contact_surname">Surname</string>
+    <string name="text_hint_contact_phone_number">Phone number</string>
+
+    <string name="text_desc_image_contact">Contact</string>
+    <string name="text_desc_image_back">Back</string>
+    <string name="text_desc_image_done">Done</string>
+
+    <string name="text_name1">Laura</string>
+    <string name="text_name2">Gordon</string>
+    <string name="text_name3">Dexter</string>
+    <string name="text_name4">Tony</string>
+
+    <string name="text_surname1">Palmer</string>
+    <string name="text_surname2">Cole</string>
+    <string name="text_surname3">Morgan</string>
+    <string name="text_surname4">Soprano</string>
+
+</resources>

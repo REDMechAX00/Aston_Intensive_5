@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Day -->
+    <color name="color_primary">#0288d1</color>
+    <color name="color_primary_variant">#01579b</color>
+    <color name="color_on_primary">#FFFFFFFF</color>
+    <color name="color_secondary">#0288d1</color>
+    <color name="color_secondary_variant">#0288d1</color>
+    <color name="color_on_secondary">#000000</color>
+    <color name="color_background">#FFFFFF</color>
+
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_black">#000000</color>
+    <color name="color_grey">#747474</color>
+    <color name="color_light_grey">#C3C3C3</color>
+</resources>

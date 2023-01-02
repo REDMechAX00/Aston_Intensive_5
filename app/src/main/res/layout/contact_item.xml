@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ItemButton"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/app_small_margin">
+
+    <TextView
+        android:id="@+id/item_contact_full_name"
+        style="@style/PrimaryNormalText"
+        android:layout_marginTop="@dimen/app_small_margin" />
+
+    <TextView
+        android:id="@+id/item_contact_phone"
+        style="@style/SecondaryNormalText" />
+
+</LinearLayout>
